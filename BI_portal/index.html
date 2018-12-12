@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全民BI</title>
+<link href="/fbi/BI_portal/6c007880caa82eb263f7.css" rel="stylesheet"></head>
+<body id="home">
+<div id="header">
+    <div class="fit-header">
+        <div class="fit-header-bkg"></div>
+        <ul class="navigation">
+            <li class="logoItem">
+                <span class="logo">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ0AAAAeCAYAAAA2AhygAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MUM1MDNEQjBBNDUxMUU4QTZBRkIzNDU2QTlCNkJGRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MUM1MDNEQzBBNDUxMUU4QTZBRkIzNDU2QTlCNkJGRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxQzUwM0Q5MEE0NTExRThBNkFGQjM0NTZBOUI2QkZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxQzUwM0RBMEE0NTExRThBNkFGQjM0NTZBOUI2QkZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+innGzwAACw9JREFUeNrsXAtwVcUZ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" alt="">
+                </span>
+            </li>
+            <li class="item"><a id="pageIndex">首页</a></li>
+            <li class="item" name="analyze">
+                <a  href="/fbi/static/idea/index.html#/mine/myAnalysis" target="_blank">分析</a>
+                <div class="menus analyze">
+                    <div class="container">
+                        <a class="mblock report" href="/fbi/static/idea/index.html#/mine/myAnalysis" target="_blank">
+                            <span class="icon icon1"></span>
+                            <span class="info">
+                            <div class="title">自助分析</div>
+                            <div class="subTitle">拖拽式的简单操作，自助化进行数据分析</div>
+                        </span>
+                        </a>
+
+                        <a class="mblock" href="/fbi/static/idea/index.html#/hx/profile" target="_blank">
+                            <span class="icon icon2"></span>
+                            <span class="info">
+                            <div class="title">用户画像</div>
+                            <div class="subTitle">全面+精准+多维的用户群体画像分析</div>
+                        </span>
+                        </a>
+                        <!--<a class="mblock" href="javascript: void(0)">-->
+                            <!--<span class="icon icon3"></span>-->
+                            <!--<span class="info">-->
+                            <!--<div class="title">智能分析</div>-->
+                            <!--<div class="subTitle">提供智能化趋势、预测等分析</div>-->
+                        <!--</span>-->
+                        <!--</a>-->
+
+                        <!--<a class="mblock" href="javascript: void(0)">-->
+                            <!--<span class="icon icon4"></span>-->
+                            <!--<span class="info">-->
+                                <!--<div class="title">智能监控</div>-->
+                                <!--<div class="subTitle">业务运营数据异常监控、分析</div>-->
+                            <!--</span>-->
+                        <!--</a>-->
+                    </div>
+                </div>
+            </li>
+            <li class="item" name="operation">
+                <a href="/fbi/static/idea/index.html#/operation/pushList" target="_blank">运营</a>
+                <div class="menus bar_operation">
+                    <div class="container">
+                        <a class="mblock" href="/fbi/static/idea/index.html#/group" target="_blank">
+                            <span class="icon icon1"></span>
+                            <span class="info">
+                            <div class="title">人群</div>
+                            <div class="subTitle">基于用户标签等多方式精细化用户分群</div>
+                        </span>
+                        </a>
+
+                        <a class="mblock" href="/fbi/static/idea/index.html#/operation/operationPage" target="_blank">
+                            <span class="icon icon2"></span>
+                            <span class="info">
+                                <div class="title">运营投放</div>
+                                <div class="subTitle">业务内与第三方运营服务多渠道精准触达用户</div>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </li>
+            <!--<li class="item"><a>专题报告</a></li>-->
+            <!--<li class="item"><a>咨询</a></li>-->
+			<li class="item" name="dataReports">
+                <a>数据报表</a>
+                <div class="menus">
+                    <div class="container">
+                    <a class="mblock report" href="http://fit.oa.com/findex/html/goldEye.html" target="_blank">
+                        <span class="icon icon1"></span>
+                        <span class="info">
+                            <div class="title">业务报表</div>
+                            <div class="subTitle">为业务产品策划、运营提供日常数据支撑</div>
+                        </span>
+                    </a>
+
+                    <a class="mblock" href="http://fit.oa.com/findex/html/dataModel.html" target="_blank">
+                        <span class="icon icon2"></span>
+                        <span class="info">
+                            <div class="title">多维分析</div>
+                            <div class="subTitle">进行多维度交叉组合、下钻分析</div>
+                        </span>
+                    </a>
+
+                    <a class="mblock" href="http://fit.oa.com/lct" target="_blank">
+                        <span class="icon icon3"></span>
+                        <span class="info">
+                            <div class="title">实时统计(理财通)</div>
+                            <div class="subTitle">用户资金流、活动行为等实时统计</div>
+                        </span>
+                    </a>
+
+                    <a class="mblock icon4" href="http://fit.oa.com/fdc" target="_blank">
+                        <span class="icon"></span>
+                        <span class="info">
+                            <div class="title">点击流(理财通)</div>
+                            <div class="subTitle">用户点击行为、热点实时分析</div>
+                        </span>
+                    </a>
+                    </div>
+                </div>
+            </li>
+            <li class="item fbi_authority"><a href="/fbi_lct" target="_blank">理财通客群</a></li>
+            <li class="item"><a href="/fbi/static/idea/index.html#/permission/pList?type=1" target="_blank">权限管理</a></li>
+            <!-- <li class="item"><a href="http://tapd.oa.com/fbi_wiki/markdown_wikis/#1020371882007060777" target="_blank">文档中心</a></li> -->
+        </ul>
+        <div class="fit-header-user">
+            <div class="useImg padlf22 rel fl">
+                <img id="user_avatar"> <span id="user_name"></span>
+                <a class="loginout" href="javascript: void(0)">
+                    <span class="img"></span>
+                    <span>退出</span>
+                </a>
+            </div>
+           
+            <a class="assistance" href="wxwork://message/username=FBI_Helper;" target="_self">
+                <span class="img"></span>
+                <span>小助手</span>
+            </a>
+            <a class="document" href="http://tapd.oa.com/fbi_wiki/markdown_wikis/#1020371882007060777" target="_blank">
+                <span class="img"></span>
+                <span>文档中心</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <img class="image" src="/fbi/BI_portal/915daadb7ab9541fa43450f744a5f191.jpg" alt="" ondragstart="return false;"/>
+    <div class="container">
+        <img class="bannerInfo" src="/fbi/BI_portal/4119b5a1d07e0da6b5bc836c16aa149c.png" alt="">
+        <div>
+            <a href="/fbi/static/idea/index.html#/mine/myAnalysis" target="_blank" class="bannerBtn">立即体验</a>
+        </div>
+        <img class="bannerIcons" src="/fbi/BI_portal/4c6ed127cde030653845009281d75588.png" alt="">
+    </div>
+</div>
+<div class="people block">
+    <div class="container">
+        <img class="image" src="/fbi/BI_portal/0539299766a6fe31ea6464efd298ab98.png" alt="" ondragstart="return false;"/>
+    </div>
+</div>
+<div class="operation block">
+    <div class="container">
+        <div class="title">
+            运营分析
+        </div>
+        <div class="content">
+            <div class="row clear-float">
+                <div class="col lf clear-float">
+                    <span class="img img1"></span>
+                    <span class="info">
+                        <div class="p">
+                            运营报表
+                        </div>
+                        <div class="h">
+                            基于业务特点和运营场景，建立高效的数据指标体系，全面支撑业务日常运营数据分析需求。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain" target="_blank" href="http://fit.oa.com/findex/html/goldEye.html">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+                <div class="col rf">
+                    <span class="img img2 lf"></span>
+                    <span class="info rf">
+                        <div class="p">
+                            自定义分析
+                        </div>
+                        <div class="h">
+                            自由组合选取所需要的数据源，进行关联、条件筛选，自定义统计分析维度和指标。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain" target="_blank" href="/fbi/static/idea/index.html#/mine/myAnalysis/extractAnalysisTask">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="row clear-float">
+                <div class="col lf clear-float">
+                    <span class="img img3"></span>
+                    <span class="info">
+                        <div class="p">
+                            模板分析
+                        </div>
+                        <div class="h">
+                            按主题把需要分析的内容、分析思路、看数据的方式等组织在一起，形成一个完整的分析视图，帮助用户进行专业化数据分析。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain" target="_blank" href="/fbi/static/idea/index.html#/mine/myAnalysis/templateAnalysisTask">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+                <div class="col rf">
+                    <span class="img img4 lf"></span>
+                    <span class="info rf">
+                        <div class="p">
+                            多维分析
+                        </div>
+                        <div class="h">
+                            通过拖拽分组、多层下钻，进行多维度、多指标的交叉、组合分析。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain" target="_blank" href="http://fit.oa.com/findex/html/dataModel.html">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="row clear-float">
+                <div class="col lf clear-float">
+                    <span class="img img5"></span>
+                    <span class="info">
+                        <div class="p">
+                            画像分析
+                        </div>
+                        <div class="h">
+                            查看不同人群特征、金融支付、使用环境等分布，对比不同人群的各属性分布差异等。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain" target="_blank" href="/fbi/static/idea/index.html#/hx/profile">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+                <div class="col rf">
+                    <span class="img lf img6"></span>
+                    <span class="info rf">
+                        <div class="p">
+                            智能分析
+                        </div>
+                        <div class="h">
+                            针对业务应用场景，提供智能化预测分析，如：销售预测、用户预测等，智能化数据监控与异常分析。
+                        </div>
+                        <div class="btn">
+                            <a class="btn-plain disabled" target="_blank" href="javascript:void(0)">立即使用</a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="intelligent block">
+    <div class="container">
+        <img class="image" src="/fbi/BI_portal/17a65e7346e02aca93c8c93e0eff2dc8.png" alt="" ondragstart="return false;"/>
+    </div>
+</div>
+
+<div class="service block">
+    <div class="container large">
+        <img class="image" src="/fbi/BI_portal/144d73a43e87874d8296f68e55e519e2.png" alt="" ondragstart="return false;"/>
+    </div>
+</div>
+
+<div class="contact">
+    <div class="container clear-float">
+        <div class="list lf report">
+            <ul>
+                <li class="title">
+                    数据报表
+                </li>
+                <li>
+                    业务报表
+                </li>
+                <li>
+                    麒麟
+                </li>
+                <li>
+                    实时统计(理财通)
+                </li>
+                <li>
+                    点击流(理财通)
+                </li>
+            </ul>
+        </div>
+
+        <div class="list lf analize">
+            <ul>
+                <li class="title">
+                    分析
+                </li>
+                <li>
+                    自助分析
+                </li>
+                <li>
+                    用户画像
+                </li>
+                <li>
+                    智能分析
+                </li>
+                <li>
+                    智能监控
+                </li>
+            </ul>
+        </div>
+
+        <div class="list lf">
+            <ul>
+                <li class="title">
+                    运营
+                </li>
+                <li>
+                    人群
+                </li>
+                <li>
+                    运营投放
+                </li>
+            </ul>
+        </div>
+
+        <div class="contactInfo">
+            <span class="logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ0AAAAeCAYAAAA2AhygAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MUM1MDNEQjBBNDUxMUU4QTZBRkIzNDU2QTlCNkJGRCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MUM1MDNEQzBBNDUxMUU4QTZBRkIzNDU2QTlCNkJGRCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxQzUwM0Q5MEE0NTExRThBNkFGQjM0NTZBOUI2QkZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxQzUwM0RBMEE0NTExRThBNkFGQjM0NTZBOUI2QkZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+innGzwAACw9JREFUeNrsXAtwVcUZ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" alt="">
+            </span>
+            <span class="info">
+                <div class="info_tip">
+                    联系我们
+                </div>
+                <span class="info_rtx">
+                    askyxu (徐国平)
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+<div id="footer"  class="block">
+    <div class="fit-footer">
+        <p>Copyright © 2005 - <span id="year"></span> Tencent. All Rights Reserved. 支付基础平台与金融应用线 版权所有</p>
+        <p></p>
+        <script type="text/javascript">
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </div>
+</div>
+<script type="text/javascript" src="/fbi/BI_portal/vendor.6c007880caa82eb263f7.bundle.js"></script><script type="text/javascript" src="/fbi/BI_portal/app.6c007880caa82eb263f7.bundle.js"></script></body>
+</html>
